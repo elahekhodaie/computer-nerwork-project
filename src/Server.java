@@ -1,6 +1,7 @@
 import java.net.*;
 import java.io.*;
-import java.util.*; 
+import java.util.*;
+import java.util.function.ToDoubleBiFunction;
 
 public class Server extends Thread{
     private ServerSocket serverSocket;
@@ -18,12 +19,14 @@ public class Server extends Thread{
             System.out.println("Waiting for client on port " + 
                serverSocket.getLocalPort() + "...");
             Socket server = serverSocket.accept();
+             //TODO handle errors
+
 
             DataOutputStream out = new DataOutputStream(server.getOutputStream());
             DataInputStream in = new DataInputStream(server.getInputStream());
 
             String str = in.readUTF();
-            System.out.println(str);Server
+            System.out.println(str);
 
          } catch (SocketTimeoutException s) {
             System.out.println("Socket timed out!");
@@ -34,6 +37,9 @@ public class Server extends Thread{
          }
       }
    }
+
+
+
 
     public static void main(String args[]) {
         int port = 8080;
