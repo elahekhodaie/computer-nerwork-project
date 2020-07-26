@@ -1,0 +1,3 @@
+public enum StatusCode {
+    NOT_FOUND_404, OK_200, NOT_IMPLEMENTED_501, METHOD_NOT_ALLOWED_405
+}
