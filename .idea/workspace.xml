@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8b9f19b-5e38-4ec1-b6e9-1e98a95e9cde" name="Default Changelist" comment="" />
+    <list default="true" id="e8b9f19b-5e38-4ec1-b6e9-1e98a95e9cde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ServerRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StatusCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StatusCode.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,11 +23,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1f4yrxmXsfDTOG0tyupEFsdVcII" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -32,6 +48,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -47,9 +68,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="730" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1595755660220">
+      <screen x="0" y="22" width="1680" height="974" />
+    </state>
+    <state x="730" y="253" key="#com.intellij.ide.util.MemberChooser/0.22.1680.974@0.22.1680.974" timestamp="1595755660220" />
+    <state x="366" y="269" key="Vcs.Push.Dialog.v2" timestamp="1595764880369">
+      <screen x="0" y="22" width="1680" height="974" />
+    </state>
+    <state x="366" y="269" key="Vcs.Push.Dialog.v2/0.22.1680.974@0.22.1680.974" timestamp="1595764880369" />
     <state x="710" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1595753206830">
       <screen x="0" y="22" width="1680" height="974" />
     </state>
     <state x="710" y="320" key="com.intellij.ide.util.TipDialog/0.22.1680.974@0.22.1680.974" timestamp="1595753206830" />
+    <state x="519" y="737" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595754939036">
+      <screen x="0" y="22" width="1680" height="974" />
+    </state>
+    <state x="519" y="737" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1680.974@0.22.1680.974" timestamp="1595754939036" />
   </component>
 </project>
