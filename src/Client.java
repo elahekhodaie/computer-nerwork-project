@@ -21,7 +21,7 @@ public class Client {
 		 OutputStream outToServer = client.getOutputStream();
 		 DataOutputStream out = new DataOutputStream(outToServer);
 
-		 out.writeUTF("salam");
+		 
 		 
 		 client.close();
 		} catch (IOException e) {

@@ -20,10 +20,20 @@ public class Server extends Thread{
             Socket server = serverSocket.accept();
 
             DataOutputStream out = new DataOutputStream(server.getOutputStream());
-            DataInputStream in = new DataInputStream(server.getInputStream());
+            InputStreamReader in = new InputStreamReader(server.getInputStream());
+            BufferedReader bin = new BufferedReader(in);
 
-            String str = in.readUTF();
-            System.out.println(str);Server
+            String str = bin.readLine();
+            String request = "";
+            while (str != null) {
+                request += str + "\n";
+                str = bin.readLine();
+            }
+            request = request.substring(0, request.length() - 1);
+            System.out.println(request);
+            RequestPacket rp = RequestPacket.fromString(request);
+            //TODO: handle errors
+            //TODO: handle responses
 
          } catch (SocketTimeoutException s) {
             System.out.println("Socket timed out!");
