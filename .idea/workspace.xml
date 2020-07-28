@@ -24,6 +24,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HttpMsg.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ServerRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StatusCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StatusCode.java" afterDir="false" />
     </list>
@@ -44,9 +48,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1f4yrxmXsfDTOG0tyupEFsdVcII" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,6 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -115,9 +118,29 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595940154430" />
+    <state x="730" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1595755660220">
+      <screen x="0" y="22" width="1680" height="974" />
+    </state>
+    <state x="730" y="253" key="#com.intellij.ide.util.MemberChooser/0.22.1680.974@0.22.1680.974" timestamp="1595755660220" />
+    <state x="400" y="131" key="CommitChangelistDialog2" timestamp="1595765012212">
+      <screen x="0" y="22" width="1680" height="974" />
+    </state>
+    <state x="400" y="131" key="CommitChangelistDialog2/0.22.1680.974@0.22.1680.974" timestamp="1595765012212" />
+    <state x="366" y="269" key="Vcs.Push.Dialog.v2" timestamp="1595764880369">
+      <screen x="0" y="22" width="1680" height="974" />
+    </state>
+    <state x="366" y="269" key="Vcs.Push.Dialog.v2/0.22.1680.974@0.22.1680.974" timestamp="1595764880369" />
     <state x="710" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1595753206830">
       <screen x="0" y="22" width="1680" height="974" />
     </state>
     <state x="710" y="320" key="com.intellij.ide.util.TipDialog/0.22.1680.974@0.22.1680.974" timestamp="1595753206830" />
+    <state x="519" y="737" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595754939036">
+      <screen x="0" y="22" width="1680" height="974" />
+    </state>
+    <state x="519" y="737" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1680.974@0.22.1680.974" timestamp="1595754939036" />
+    <state x="554" y="341" key="save.file.as.template.dialog" timestamp="1595765019008">
+      <screen x="0" y="22" width="1680" height="974" />
+    </state>
+    <state x="554" y="341" key="save.file.as.template.dialog/0.22.1680.974@0.22.1680.974" timestamp="1595765019008" />
   </component>
 </project>
